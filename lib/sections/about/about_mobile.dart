@@ -29,8 +29,10 @@ class AboutMobile extends StatelessWidget {
 
           Space.y1!,
           Image.asset(
-            StaticUtils.Photo1,
-            height: height * 0.1,
+            StaticUtils.myPhoto,
+            height: 500,
+            width: 500,
+            scale: 0.8,
           ),
           SizedBox(
             width: 60,

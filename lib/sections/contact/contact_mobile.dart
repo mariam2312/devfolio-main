@@ -16,7 +16,7 @@ class ContactMobileTab extends StatelessWidget {
           text: "\nContact with me ",
         ),
         CarouselSlider.builder(
-          itemCount: 3,
+          itemCount: 2,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
             padding: const EdgeInsets.symmetric(vertical: 10.0),
             child: ProjectCard(

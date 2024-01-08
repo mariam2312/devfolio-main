@@ -28,11 +28,13 @@ class HomeDesktop extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  StaticUtils.Photo1,
+                  StaticUtils.myPhoto,
                   width: 500,
-                  height: size.width < 1200
-                      ? size.height * 0.8
-                      : size.height * 0.85,
+                  height: 500,
+                  scale: 0.6,
+                  // height: size.width < 1200
+                  //     ? size.height * 0.8
+                  //     : size.height * 0.85,
                 ),
               ),
             ),

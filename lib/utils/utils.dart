@@ -8,7 +8,7 @@ import 'package:folio/widget/footer.dart';
 
 class StaticUtils {
   // photos
-  static const String Photo1 = 'assets/photos/myphoto.jpg';
+  static const String myPhoto = 'assets/photos/myphoto.jpg';
 
   // services
   static const String webDev = 'assets/services/ui.png';

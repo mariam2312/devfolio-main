@@ -32,8 +32,10 @@ class AboutDesktop extends StatelessWidget {
             children: [
               Expanded(
                 child: Image.asset(
-                  StaticUtils.Photo1,
-                  height: height * 0.7,
+                  StaticUtils.myPhoto,
+                  height: 500,
+                  width: 500,
+                  scale: 0.6,
                 ),
               ),
               SizedBox(

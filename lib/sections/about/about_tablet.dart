@@ -30,8 +30,10 @@ class AboutTab extends StatelessWidget {
           ),
           Space.y1!,
           Image.asset(
-            StaticUtils.Photo1,
-            height: height * 0.1,
+            StaticUtils.myPhoto,
+            height: 400,
+            width: 400,
+            scale: 0.8,
           ),
           SizedBox(
             width: 200,
